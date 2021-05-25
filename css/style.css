@@ -420,15 +420,15 @@ img {
   color: #319b58;
 }
 
-.itinerary .grid--2X3 {
-  grid-template-columns: repeat(1fr, 3);
-  grid-template-rows: repeat(1fr, 2);
+.itinerary-grid--2X3 {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1fr, 6);
   gap: 2rem;
 }
-@media screen and (max-width: 768px) {
-  .itinerary .grid--2X3 {
-    grid-template-rows: repeat(1fr, 1);
-    grid-template-rows: repeat(1fr, 6);
+@media screen and (min-width: 768px) {
+  .itinerary-grid--2X3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr, 2);
   }
 }
 
@@ -437,6 +437,7 @@ img {
   border-radius: 5px;
   background-color: white;
   transition: transform 0.4s;
+  cursor: pointer;
 }
 
 .card:hover {
