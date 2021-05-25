@@ -268,7 +268,7 @@ img {
 }
 
 .box-1 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 0.7245273109) 100%), url(../images/puppy.jpeg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, 0.7245273109) 100%), url(../images/puppy.webp);
   background-position: bottom;
   background-size: cover;
   height: 250px;

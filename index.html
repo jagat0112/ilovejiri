@@ -24,7 +24,19 @@
     <!-- HERO -->
     <div class="hero">
       <div class="hero-bg">
-        <img src="./images/hero.webp" alt="" class="hero-bg__img" />
+        <picture>
+          <img
+            class="hero-bg__img"
+            sizes="(max-width: 2800px) 100vw, 2800px"
+            srcset="
+              images/hero_ufr0ej_c_scale,w_190.webp   190w,
+              images/hero_ufr0ej_c_scale,w_1850.webp 1850w,
+              images/hero_ufr0ej_c_scale,w_2800.webp 2800w
+            "
+            src="images/hero_ufr0ej_c_scale,w_2800.webp"
+            alt=""
+          />
+        </picture>
       </div>
       <div class="hero-desc hero-desc--postion flex">
         <div class="hero-desc__img">
@@ -74,11 +86,19 @@
         </div>
         <div class="welcome-photos__items">
           <a href="">
-            <img
-              class="welcome-photos__img"
-              src="./images/jireswori.jpeg"
-              alt=""
-            />
+            <picture>
+              <img
+                class="welcome-photos__img"
+                sizes="(max-width: 1400px) 100vw, 1400px"
+                srcset="
+                  images/jireswori_bvcyhs_c_scale,w_200.jpg   200w,
+                  images/jireswori_bvcyhs_c_scale,w_960.jpg   960w,
+                  images/jireswori_bvcyhs_c_scale,w_1400.jpg 1400w
+                "
+                src="images/jireswori_bvcyhs_c_scale,w_1400.jpg"
+                alt=""
+              />
+            </picture>
             <p class="welcome-photos__items__text">
               Religious Sites
               <span class="icon"><i class="fas fa-arrow-right"></i></span>
