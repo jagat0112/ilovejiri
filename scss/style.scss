@@ -1,8 +1,8 @@
 /* TOPOGRAPHY */
 // @import url(./_normalize.scss);
 
-$primary--color: #319b58;
-$background--color: #fff;
+$primary--color: #17b978;
+$background--color: #f5f6f6;
 $text--color: #0e3a3d;
 $text--color2: rgb(128, 128, 128);
 html {
@@ -18,7 +18,7 @@ body {
   padding: 0;
   margin: 0;
   color: rgb(128, 128, 128);
-  background-color: #f5f6f6;
+  background-color: $background--color;
 }
 
 p {
@@ -161,9 +161,17 @@ img {
 }
 
 .hero-desc__img {
+  height: 13rem;
   width: 20rem;
-  padding: 2rem 1rem;
+  padding: 2rem 4rem;
   align-self: center;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.329);
+  }
 }
 
 // WELCOME
@@ -556,5 +564,84 @@ img {
   .item--6 {
     display: flex;
     align-items: center;
+  }
+}
+
+// Why Jiri
+
+.why-jiri {
+  text-align: center;
+  margin-bottom: 5rem;
+
+  .why-jiri__heading {
+    margin-top: 0;
+    margin-bottom: 6rem;
+  }
+  .why-jiri__sub-heading {
+    margin: 0;
+  }
+
+  .why-jiri__card {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+
+    @media screen and (min-width: 678px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    @media screen and (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+  .why-jiri__item {
+    max-width: 350px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+    transition: transform 0.4s;
+    cursor: pointer;
+    position: relative;
+
+    .why-jiri__img {
+      height: 60%;
+      border-radius: 5px 5px 0 0;
+      object-fit: cover;
+    }
+
+    .why-jiri__icon {
+      height: 80px;
+      width: 80px;
+      background: WHITE;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 43%;
+
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .why-jiri__icon-img {
+      margin: auto;
+      padding: 25px;
+      // height: 70%;
+      // width: 70%;
+    }
+    .why-jiri__item__text {
+      color: #0e3a3d;
+
+      p {
+        color: #0e3a3d !important;
+        padding: 4rem 2rem 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
   }
 }
