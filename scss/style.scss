@@ -700,6 +700,8 @@ img {
 
 .footer--grid {
   display: grid;
+  justify-content: center;
+  align-content: center;
   gap: 20px;
 
   justify-items: center;
@@ -733,6 +735,12 @@ img {
 .footer-about {
   .footer-links {
     margin: 25px 0;
+    i {
+      color: $text--color;
+    }
+    i:hover {
+      color: $primary--color;
+    }
     span {
       margin: 0 15px;
     }

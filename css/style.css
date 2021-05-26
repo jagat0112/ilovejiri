@@ -660,6 +660,8 @@ img {
 
 .footer--grid {
   display: grid;
+  justify-content: center;
+  align-content: center;
   gap: 20px;
   justify-items: center;
 }
@@ -692,6 +694,12 @@ img {
 
 .footer-about .footer-links {
   margin: 25px 0;
+}
+.footer-about .footer-links i {
+  color: #0e3a3d;
+}
+.footer-about .footer-links i:hover {
+  color: #17b978;
 }
 .footer-about .footer-links span {
   margin: 0 15px;
