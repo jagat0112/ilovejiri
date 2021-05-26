@@ -596,8 +596,8 @@ img {
   transform: translateX(-50%);
 }
 .why-jiri .why-jiri__item .why-jiri__icon-img {
-  margin: auto;
-  padding: 25px;
+  height: 50%;
+  width: 50%;
 }
 .why-jiri .why-jiri__item .why-jiri__item__text {
   color: #0e3a3d;
