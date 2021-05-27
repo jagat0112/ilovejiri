@@ -481,7 +481,7 @@ img {
   letter-spacing: 1px;
 }
 .itinerary__item--text .price-tag {
-  color: #17b978;
+  color: #0e3a3d;
   font-weight: 600;
   font-size: 1.7rem;
 }
@@ -510,7 +510,7 @@ img {
 }
 
 .itinerary--btn:hover {
-  background-color: #fe7c5b;
+  background-color: #17b978;
   color: white;
   border: 1px solid white;
 }
