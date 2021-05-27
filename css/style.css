@@ -58,7 +58,7 @@ li {
 /* LINKS */
 a {
   text-decoration: none;
-  color: gray;
+  color: #808080;
 }
 
 img {
@@ -97,10 +97,6 @@ img {
 
 .flex {
   display: flex;
-}
-
-.hero {
-  box-shadow: 2px 0 25px rgba(14, 58, 61, 0.15);
 }
 
 .hero-bg {
@@ -169,7 +165,7 @@ img {
   width: 17rem;
   object-fit: cover;
   object-position: bottom;
-  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.329);
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.1);
 }
 
 .welcome {
@@ -472,7 +468,7 @@ img {
 
 .itinerary__item--text {
   margin: 1rem 3rem;
-  color: gray;
+  color: #808080;
 }
 .itinerary__item--text p {
   font-size: 1.2rem;
@@ -485,7 +481,7 @@ img {
   letter-spacing: 1px;
 }
 .itinerary__item--text .price-tag {
-  color: #fe7c5b;
+  color: #17b978;
   font-weight: 600;
   font-size: 1.7rem;
 }
@@ -523,7 +519,7 @@ img {
   text-align: center;
 }
 .itinerary-show-all .itinerary-show-all--btn {
-  background-color: #fe7c5b;
+  background-color: #17b978;
   color: white;
   padding: 2rem 6rem;
   margin: 2rem 0;
@@ -613,10 +609,9 @@ img {
   width: 50%;
 }
 .why-jiri .why-jiri__item .why-jiri__item__text {
-  color: #0e3a3d;
+  color: #808080;
 }
 .why-jiri .why-jiri__item .why-jiri__item__text p {
-  color: #0e3a3d !important;
   padding: 4rem 2rem 1rem;
   font-size: 2rem;
   font-weight: 700;
@@ -729,6 +724,10 @@ img {
   font-size: 1.2rem !important;
   text-align: center;
   font-weight: 400;
+}
+
+.fas {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

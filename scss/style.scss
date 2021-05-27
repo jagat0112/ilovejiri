@@ -1,11 +1,12 @@
 /* TOPOGRAPHY */
 // @import url(./_normalize.scss);
 
-$primary--color: #17b978;
+$primary--color: rgb(23, 185, 120);
+$secondary--color: #0e3a3d;
 $accent-color: #fe7c5b;
 $background--color: #f5f6f6;
 $text--color: #0e3a3d;
-$text--color2: rgb(128, 128, 128);
+$text--color2: #808080;
 html {
   font-size: 62.5%;
 }
@@ -108,10 +109,6 @@ img {
 }
 // Hero
 
-.hero {
-  box-shadow: 2px 0 25px rgba(14, 58, 61, 0.15);
-}
-
 .hero-bg {
   height: auto;
   padding: 0;
@@ -175,7 +172,7 @@ img {
     width: 17rem;
     object-fit: cover;
     object-position: bottom;
-    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.329);
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -511,7 +508,7 @@ img {
     letter-spacing: 1px;
   }
   .price-tag {
-    color: #fe7c5b;
+    color: $primary--color;
     font-weight: 600;
     font-size: 1.7rem;
   }
@@ -533,7 +530,7 @@ img {
 .itinerary--btn {
   border: 1px solid #0e3a3d38;
   background-color: white;
-  color: #0e3a3d;
+  color: $text--color;
   padding: 1.2rem 2rem;
   margin: 2rem 0;
   border-radius: 5px;
@@ -550,7 +547,7 @@ img {
 .itinerary-show-all {
   text-align: center;
   .itinerary-show-all--btn {
-    background-color: #fe7c5b;
+    background-color: $primary--color;
     color: white;
     padding: 2rem 6rem;
     margin: 2rem 0;
@@ -647,10 +644,8 @@ img {
       width: 50%;
     }
     .why-jiri__item__text {
-      color: #0e3a3d;
-
+      color: $text--color2;
       p {
-        color: #0e3a3d !important;
         padding: 4rem 2rem 1rem;
         font-size: 2rem;
         font-weight: 700;
@@ -769,4 +764,8 @@ img {
   font-size: 1.2rem !important;
   text-align: center;
   font-weight: 400;
+}
+
+.fas {
+  margin-right: 10px;
 }
