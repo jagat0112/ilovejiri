@@ -23,21 +23,15 @@
   <body>
     <!-- HERO -->
     <div class="hero">
-      <div class="hero-bg">
-        <picture>
-          <img
-            class="hero-bg__img"
-            sizes="(max-width: 2800px) 100vw, 2800px"
-            srcset="
-              images/hero_ufr0ej_c_scalew_190.webp   190w,
-              images/hero_ufr0ej_c_scalew_1850.webp 1850w,
-              images/hero_ufr0ej_c_scalew_2800.webp 2800w
-            "
-            src="images/hero_ufr0ej_c_scalew_2800.webp"
-            alt=""
-          />
-        </picture>
+      <div class="hero-bg">   
+        <div class="blur--hero">
+          <h1 style='color:white; text-align: center;'>
+           EXPLORE BEST IN JIRI
+          </h1>
+          <p style='color:#F5F6F6; text-align: center;'>Your Travel Guide, Tour Operator and Travel Companion</p>
+        </div>      
       </div>
+    </div>
       <div class="hero-desc hero-desc--postion flex">
         <div class="hero-desc__img">
           <img src="./images/garjung_nv7iev.jpeg" />
@@ -278,12 +272,14 @@
     </div>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="footer--grid footer--margin">
+      <div class="footer--grid footer--margin container">
         <div class="footer-about">
-          <h4>Brand</h4>
+          <div class="footer__brand">
+            <img class="footer__brand__img" src="./images/brand.png"/>
+
+          </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed
-            dolore cumque maxime ad nulla.
+            I love Jiri is a Destination Management Company for Jiri.  We intregate local resources to give our clients best experince during thier trip. 
           </p>
           <div class="footer-links footer-links--grid">
             <span
